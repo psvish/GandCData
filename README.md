@@ -69,6 +69,7 @@ X, Y or Z'is used to denote corresponding axial signals in the X, Y and Z direct
 The notation Time_Domain and Freq_Domain are used to denote time and frequency domain values respecitively.
 Since the measurements in the original data set were normalized and bounded within [-1,1], there are no units to any of these values. If not normalized, acceleration would have units of m/s^2 and gyro velocity would have units of radians/s.]
 
+Mean_Body_Acceleration_Time_Domain_X_axis
 Mean_Body_Acceleration_Time_Domain_Y_axis
 Mean_Body_Acceleration_Time_Domain_Z_axis
 StdDev_Body_Acceleration_Time_Domain_X_axis
