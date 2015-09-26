@@ -1,7 +1,7 @@
 # GandCData
-## Code book information for tidy data set
+### Code book information for tidy data set
 
-### Source
+#### Source
 
 Original data from Human Activity Recognition Using Smartphones Dataset [Version 1.0] from:
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
@@ -10,15 +10,15 @@ DITEN - Universit‡ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 www.smartlab.ws
 
-## Data Set Information
+### Data Set Information
 
-### Oringinal Data Set
+#### Oringinal Data Set
 
 The data are from the experiments carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were captured. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
-Modifications Done to Generate Submitted Data Set
+### Modifications Done to Generate Submitted Data Set
 
 1.	Merged the training and the test sets to create one data set.  
 2.	Extracted only the measurements on the mean and standard deviation for each measurement.  Selected only those measurements that had mean() or std() resulting in 66 columns being selected for further processing.
@@ -28,7 +28,7 @@ Modifications Done to Generate Submitted Data Set
 
 The created tidy data set was written out as a text file, tidy_data.txt and uploaded as part of this submission.
 
-Attribute Information for the Original DataSet
+#### Attribute Information for the Original DataSet
 
 The original data set includes the following files:
 - 'README.txt'
@@ -58,7 +58,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 The complete list of variables of each feature vector is available in 'features.txt'.
 
-Attribute Information for the Tidy Data Set Submitted:
+### Attribute Information for the Tidy Data Set Submitted:
 
 - Test_Subjects: list of subjects identified as 1 to 6;
 - Activity_Name: list of 6 activities [ "Walking", "Walking_Up", "Walking_Down", "Sitting", "Standing", "Laying"]
