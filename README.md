@@ -136,5 +136,4 @@ StdDev_Body_Gyro_Velocity_Magnitude_Freq_Domain
 Mean_Body_Gyro_Jerk_Magnitude_Freq_Domain
 StdDev_Body_Gyro_Jerk_Magnitude_Freq_Domain
 
-The file Descriptive_Var_Names.txt has the info used to add these descripting column names to to the tidy data set.
-
+The file Descriptive_Var_Names.txt has the info used to add these descripting column namesto to the tidy data set.   
