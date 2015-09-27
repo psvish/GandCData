@@ -68,10 +68,11 @@ The complete list of variables of each feature vector is available in 'features.
 [Notes:
 X, Y or Z'is used to denote corresponding axial signals in the X, Y and Z directions. 
 The notation Time_Domain and Freq_Domain are used to denote time and frequency domain values respecitively.
+The term "Magnitude" in the varible list below contain the magnitude part of the vector measurment 
+in the time and frequency domain, respectively.
 Since the measurements in the original data set were normalized and bounded within [-1,1], there are no units to any of these values. If not normalized, acceleration would have units of m/s^2 and gyro velocity would have units of radians/s.]
 
 Mean_Body_Acceleration_Time_Domain_X_axis
-
 Mean_Body_Acceleration_Time_Domain_Y_axis
 Mean_Body_Acceleration_Time_Domain_Z_axis
 StdDev_Body_Acceleration_Time_Domain_X_axis
@@ -127,13 +128,11 @@ Mean_Body_Gyro_Velocity_Freq_Domain_X_axis
 Mean_Body_Gyro_Velocity_Freq_Domain_Y_axis
 Mean_Body_Gyro_Velocity_Freq_Domain_Z_axis
 StdDev_Body_Gyro_Velocity_Freq_Domain_X_axis
-
 StdDev_Body_Gyro_Velocity_Freq_Domain_Y_axis
 StdDev_Body_Gyro_Velocity_Freq_Domain_Z_axis
 Mean_Body_Acceleration_Magnitude_Freq_Domain
 StdDev_Body_Acceleration_Magnitude_Freq_Domain
 Mean_Body_Acceleration_Jerk_Magnitude_Freq_Domain
-
 StdDev_Body_Acceleration_Jerk_Magnitude_Freq_Domain
 Mean_Body_Gyro_Velocity_Magnitude_Freq_Domain
 StdDev_Body_Gyro_Velocity_Magnitude_Freq_Domain
